@@ -12,7 +12,7 @@ Game web application
 ### Built With
 
 - React
-- Jest
+- Typescript
 - Bootstrap 5
 
 <!-- GETTING STARTED -->
