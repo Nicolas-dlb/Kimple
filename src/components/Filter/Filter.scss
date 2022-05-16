@@ -1,0 +1,38 @@
+.filter {
+ margin-right: 20px;
+  .filterLabel {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  .filterButtons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1px;
+    flex-wrap: wrap;
+    button {
+      font-size: 10px;
+      border-radius: 5px;
+      border: none !important;
+    }
+    .btn-group {
+      flex-wrap: wrap;
+    }
+    
+.btn-dark {
+  box-shadow: none !important;
+  border: none;
+}
+.btn-check:active, .btn-check:focus, .btn-check:checked+.btn-dark, .btn-dark.active {
+    color: #fff;
+    background-color: #a92f1a;
+    border: none;
+    box-shadow: none !important;
+}
+
+  }
+}

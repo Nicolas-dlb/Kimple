@@ -1,0 +1,73 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  background: rgb(40, 46, 40);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  color: white;
+  width: 45px;
+
+  .logoWrapper {
+  background: rgb(184, 20, 20);
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   img {
+     width: 13px;
+   }
+}  
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 70%;
+    position: relative;
+    
+    bottom: 20%;
+   svg {
+     width: 17px;
+     fill: white;
+   }
+   i{
+     transform: scale(0.8);
+      &:first-of-type {
+      position: relative;
+      bottom: 45px;
+      transform: scale(1.1);
+      }
+   }
+
+    i, svg{
+      cursor: pointer;
+      &:hover{
+        color: rgb(229, 222, 222);
+        fill: rgb(229, 222, 222);
+      }
+    }
+
+    .nav-items {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+      height: 75%;
+      position: relative;
+      bottom: 120px;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 660px){
+  .sidebar {
+    display: none;
+  }
+}
