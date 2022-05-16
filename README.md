@@ -55,7 +55,7 @@ npm test
 
 Nicolas Dubois - [@Linkedin](https://www.linkedin.com/in/nicolasdlb) - nicolas_db@outlook.fr
 
-Project Link: [https://github.com/Nicolas-dlb/Klaxoon](https://github.com/Nicolas-dlb/Kimple)
+Project Link: [https://github.com/Nicolas-dlb/Kimple](https://github.com/Nicolas-dlb/Kimple)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
