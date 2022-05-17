@@ -7,12 +7,12 @@
 <img src="src/assets/pictures/product-screenshot.png" width="850px"/>
 </p>
 
-Bookmarks management web application
+Game web application
 
 ### Built With
 
 - React
-- Jest
+- Typescript
 - Bootstrap 5
 
 <!-- GETTING STARTED -->
@@ -41,21 +41,13 @@ npm install
 npm start
 ```
 
-### Tests
-
-run unit tests
-
-```sh
-npm test
-```
-
 <!-- CONTACT -->
 
 ## Contact
 
 Nicolas Dubois - [@Linkedin](https://www.linkedin.com/in/nicolasdlb) - nicolas_db@outlook.fr
 
-Project Link: [https://github.com/Nicolas-dlb/Klaxoon](https://github.com/Nicolas-dlb/Klaxoon)
+Project Link: [https://github.com/Nicolas-dlb/Kimple](https://github.com/Nicolas-dlb/Kimple)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
