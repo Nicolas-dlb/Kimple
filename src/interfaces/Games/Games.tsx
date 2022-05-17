@@ -10,6 +10,7 @@ import Filters from "../Filters/Filters";
 import games from "../../test.json";
 import useFilters from "../../utils/hooks/useFilters";
 import Card from "../../components/card/Card";
+import "./Games.scss";
 
 function Games(): JSX.Element {
   const { filters, setFilters, resetFilters } = useFilters();
