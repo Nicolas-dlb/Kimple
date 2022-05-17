@@ -47,3 +47,10 @@ interface FilterProps {
   filters: FiltersT;
   setFilters: Dispatch<SetStateAction<FiltersT>>;
 }
+
+interface GamesProps {
+  filters: FiltersT;
+  selectedGames: number;
+  setSelectedGames: Dispatch<SetStateAction<number>>;
+  filteredGames: GameT[];
+}
