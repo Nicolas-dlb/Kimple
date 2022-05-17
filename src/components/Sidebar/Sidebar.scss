@@ -13,41 +13,42 @@
   width: 45px;
 
   .logoWrapper {
-  background: rgb(184, 20, 20);
+    background: rgb(184, 20, 20);
     height: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-   img {
-     width: 13px;
-   }
-}  
-  nav{
+    img {
+      width: 13px;
+    }
+  }
+  nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
     height: 70%;
     position: relative;
-    
-    bottom: 20%;
-   svg {
-     width: 17px;
-     fill: white;
-   }
-   i{
-     transform: scale(0.8);
-      &:first-of-type {
-      position: relative;
-      bottom: 45px;
-      transform: scale(1.1);
-      }
-   }
 
-    i, svg{
+    bottom: 20%;
+    svg {
+      width: 17px;
+      fill: white;
+    }
+    i {
+      transform: scale(0.8);
+      &:first-of-type {
+        position: relative;
+        bottom: 45px;
+        transform: scale(1.1);
+      }
+    }
+
+    i,
+    svg {
       cursor: pointer;
-      &:hover{
+      &:hover {
         color: rgb(229, 222, 222);
         fill: rgb(229, 222, 222);
       }
@@ -63,10 +64,9 @@
       bottom: 120px;
     }
   }
-
 }
 
-@media only screen and (max-width: 660px){
+@media only screen and (max-width: 660px) {
   .sidebar {
     display: none;
   }

@@ -14,46 +14,45 @@ header {
     justify-content: space-around;
     width: 500px;
     input {
-    background: #303840;
-    border: 1px solid white;
-    border-radius: 5px;
-    outline: none;
-    color: white;
-    padding: 3px;
-     padding-left: 10px;
-    &::placeholder{
-      color: grey;
+      background: #303840;
+      border: 1px solid white;
+      border-radius: 5px;
+      outline: none;
+      color: white;
+      padding: 3px;
+      padding-left: 10px;
+      &::placeholder {
+        color: grey;
+      }
     }
   }
-  }
   .header-item {
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
-     cursor: pointer;
-     i{
-       margin: 0 8px;
-     }
-     &:hover {
-       color: rgb(229, 222, 222);
-     }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    i {
+      margin: 0 8px;
+    }
+    &:hover {
+      color: rgb(229, 222, 222);
+    }
   }
-  
 }
 
-@media only screen and (max-width: 960px){
+@media only screen and (max-width: 960px) {
   .administration {
     display: none !important;
   }
   .gestionnaire {
-      display: none !important;
+    display: none !important;
   }
   input {
     width: 60%;
   }
 }
 
-@media only screen and (max-width: 660px){
+@media only screen and (max-width: 660px) {
   .computer {
     display: none !important;
   }

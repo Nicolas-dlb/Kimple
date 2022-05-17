@@ -1,5 +1,5 @@
 .filter {
- margin-right: 20px;
+  margin-right: 20px;
   .filterLabel {
     display: flex;
     align-items: center;
@@ -22,17 +22,19 @@
     .btn-group {
       flex-wrap: wrap;
     }
-    
-.btn-dark {
-  box-shadow: none !important;
-  border: none;
-}
-.btn-check:active, .btn-check:focus, .btn-check:checked+.btn-dark, .btn-dark.active {
-    color: #fff;
-    background-color: #a92f1a;
-    border: none;
-    box-shadow: none !important;
-}
 
+    .btn-dark {
+      box-shadow: none !important;
+      border: none;
+    }
+    .btn-check:active,
+    .btn-check:focus,
+    .btn-check:checked + .btn-dark,
+    .btn-dark.active {
+      color: #fff;
+      background-color: #a92f1a;
+      border: none;
+      box-shadow: none !important;
+    }
   }
 }
